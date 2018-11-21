@@ -9,7 +9,7 @@ import java.util.Set;
  * @author LT
  * @Date on 2018/11/20
  */
-public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     /*private final SpecialtyService specialtyService;
 
