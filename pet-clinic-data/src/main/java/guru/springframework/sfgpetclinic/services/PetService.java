@@ -8,11 +8,6 @@ import java.util.Set;
  * @author LT
  * @Date on 2018/11/20
  */
-public interface PetService {
+public interface PetService extends CrudService<Pet, Long>{
 
-    Pet findById(Long id);
-
-    Pet save(Pet pet);
-
-    Set<Pet> findAll();
 }
