@@ -15,4 +15,9 @@ public class Indexcontroller {
 
         return "index";
     }
+
+    @RequestMapping("/oups")
+    public String findOwners(){
+        return "notimplemented";
+    }
 }
