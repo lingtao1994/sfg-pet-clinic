@@ -13,11 +13,11 @@ import java.util.Set;
  * @Date on 2018/11/20
  */
 @Service
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
+public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
     private final SpecialtyService specialtyService;
 
-    public VetServiceMap(SpecialtyService specialtyService) {
+    public VetMapService(SpecialtyService specialtyService) {
         this.specialtyService = specialtyService;
     }
 
